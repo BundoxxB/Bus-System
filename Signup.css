@@ -1,0 +1,60 @@
+body {
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: peachpuff;
+}
+h1{
+    color: brown;
+    Text-align:center;
+    padding: 20px;
+
+}
+
+.navbar {
+    background-color:blueviolet ;
+   display: flex; 
+   justify-content: center;
+   gap: 15px;
+   padding: 10px;
+}
+.navbar a{
+    color: salmon;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar{
+   
+    
+   
+    
+    display: flex;
+    justify-content:center;
+    
+   
+   
+}
+
+
+.navbar :hover
+{
+    
+    color: salmon;
+    
+   
+    display: inline-block;
+    padding :10px 30px;
+    background:aqua;
+    border: 2px solid brown;
+    border-radius: 20px;
+    box-shadow: 0 0 10px red;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: 0.5;
+}

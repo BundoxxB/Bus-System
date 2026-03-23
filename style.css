@@ -1,0 +1,92 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:aqua;
+    margin:0;
+    padding:0;
+
+}
+.container {
+    width: 400px;
+    margin:60px auto;
+    background: wheat;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(from 0 0 0 0.1);
+}
+h2 {
+    text-align: center;
+    color: #333;
+
+}
+input,button {
+    width:100%;
+    padding:10px;
+    margin-top: 10px;
+}
+button{
+    background-color: #007bff;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: green;
+}
+.navbar{
+    position:fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: Black;
+   
+}
+.navbar.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+
+}
+
+.navbar ul li a {
+    
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+
+
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    color: #7cf03d;
+    color: red;
+    display: inline-block;
+    padding :10px 30px;
+    background: red;
+    border: 2px solid green;
+    border-radius: 40px;
+    box-shadow: 0 0 10px green;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+}
